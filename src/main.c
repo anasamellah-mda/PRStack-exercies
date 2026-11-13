@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include "wallet.h"
 
 int main(void) {
-    printf("PRStack C App Ready!\n");
+    int balance = 100;
+    balance = deposit(balance, 50);
+    balance = withdraw(balance, 30);
+    printf("Final Wallet Balance: %d MAD\n", balance);
     return 0;
 }
