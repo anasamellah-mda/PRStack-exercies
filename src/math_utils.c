@@ -9,6 +9,7 @@ int sub(int a, int b) {
 }
 
 int mul(int a, int b) {
+    printf("hello anas hna kayen \n");
     printf("hello anas\n");
     return a * b;
 }
