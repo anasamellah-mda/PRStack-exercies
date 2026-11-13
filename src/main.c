@@ -8,5 +8,6 @@ int main(void) {
     printf("Final Wallet Balance: %d MAD\n", balance);
     printf("ana daba f stack tani\n");
     printf("_______\n");
+    printf("ana daba f stack 3\n");
     return 0;
 }
