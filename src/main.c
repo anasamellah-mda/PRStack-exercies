@@ -7,5 +7,6 @@ int main(void) {
     balance = withdraw(balance, 30);
     printf("Final Wallet Balance: %d MAD\n", balance);
     printf("ana daba f stack tani\n");
+    printf("_______\n");
     return 0;
 }
