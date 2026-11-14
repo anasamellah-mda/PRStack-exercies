@@ -3,4 +3,5 @@
 
 void PR1message(char * str);
 int messagesize(char *str);
+void printmessgeAndNumber(char *str);
 #endif

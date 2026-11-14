@@ -21,6 +21,7 @@ void test_PR1(void)
     PR1message("anas") ;
     PR1message("123") ;
     assert(messagesize("anas") == 4);
+    printmessgeAndNumber("anas amellahe");
     printf("[PASS] test_PR1\n");
 }
 
