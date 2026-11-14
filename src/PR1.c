@@ -10,3 +10,8 @@ int messagesize(char *str)
 {
     return strlen(str);
 }
+void printmessgeAndNumber(char *str)
+{
+    PR1message(str);
+    printf("%d\n", messagesize(str));
+}
